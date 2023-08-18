@@ -13,7 +13,7 @@ st.title('K-Means Clustering')
 # Upload the dataset and save as csv
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
-text_input = st.text_area("")
+text_input = st.text_area("Inpute Text Here..!")
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
 
